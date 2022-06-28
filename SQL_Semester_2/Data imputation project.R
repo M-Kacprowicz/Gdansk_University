@@ -70,7 +70,7 @@ plot_missing_imp<-aggr(data_imp, col=c('cyan','pink'),
                    labels=names(data_imp), cex.axis=0.6,
                    cex.lab=1.5,
                    gap=1, ylab=c('Braki',"Wzor brakow"))
-#Po imputacji danych braki nie wyst�puj�
+#Po imputacji danych braki nie wystepuja
 
 write.csv(data_imp,"dane_imputowane.csv", row.names = FALSE)
 
