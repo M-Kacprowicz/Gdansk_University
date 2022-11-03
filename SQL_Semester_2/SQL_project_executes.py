@@ -5,7 +5,7 @@ import psycopg2
 
 #connection to database
 
-conn = psycopg2.connect('host=localhost dbname=NFLdata user=postgres password=Matikacp14')
+conn = psycopg2.connect('host=localhost dbname=NFLdata user=postgres password=**********')
 
 #creating cursor to work with database
 
